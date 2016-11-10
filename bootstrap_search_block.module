@@ -1,0 +1,14 @@
+<?php
+
+/**
+* Implements hook_theme() .
+*/
+function bootstrap_search_block_theme()
+{
+    return array(
+        'input__button__submit' => array(
+            'variables' => array('attributes' => array(), 'children' => array(), 'markup' => array()),
+            'template' => 'input--button',
+        ),
+    );
+}

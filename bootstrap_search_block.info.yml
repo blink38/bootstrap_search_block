@@ -1,0 +1,9 @@
+name: Bootstrap Search Block
+core: 8.x
+type: module
+version: 8.x-1.0
+package: Search
+description: Bootstrap like search block
+
+dependencies:
+  - search
